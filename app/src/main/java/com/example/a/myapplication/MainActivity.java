@@ -10,16 +10,21 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private TabLayout tabLayout;
+    private static final Integer HGJ = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         viewPager = findViewById(R.id.vp);
         tabLayout = findViewById(R.id.tl);
 
         tabLayout.setupWithViewPager(viewPager);
 
+
     }
+
+    private static final String Ng="21";
+
 }
+
